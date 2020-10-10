@@ -1,8 +1,8 @@
-{ siteTitle = "Neuron Template"
-, author = Some "John Doe"
+{ siteTitle = "Noah's Knowledge Graph"
+, author = Some "Noah Pederson"
 , siteBaseUrl = Some "https://srid.github.io/neuron-template"
 -- List of theme colors: https://neuron.zettel.page/2014601.html
-, theme = "teal"
+, theme = "green"
 -- This is used in the "edit" button
-, editUrl = Some "https://github.com/srid/neuron-template/edit/master/"
+, editUrl = Some "https://github.com/chiefnoah/zettelkasten/edit/master/"
 }
