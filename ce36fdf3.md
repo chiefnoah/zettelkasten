@@ -1,8 +1,8 @@
 ---
 date: 2020-10-13T15:27
 tags:
-    - photography
-    - japan
+  - photography
+  - japan
 ---
 
 # Moriyama Daidou
