@@ -7,6 +7,9 @@ tags:
 
 # Moriyama Daidou
 
+![Moriyama Daidou](static/DaidoMoriyamaBySebastianMayer.jpg){.ui .medium
+.centered .image}
+
 森山 大道
 
 A photographer born in Osaka Japan, Daidou's signature style includes poorly
