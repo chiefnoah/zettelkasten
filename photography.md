@@ -15,7 +15,15 @@ The art of taking photographs using a camera.
   * 24.2 megapixel
   * ISO 100-32000
   * Sony E-mount lenses
-
+  * No in-body stabilization (IBIS)
+  * No weather sealing
+* Sony A6600
+  * APS-C format
+  * 24.2 megapixel
+  * ISO 100-32000
+  * Sony E-mount lenses
+  * In-body stabilization (IBIS)
+  * Weather sealing
 ## Photographers
 
 * Galen Rowell
