@@ -15,3 +15,13 @@ Only has 8TB drives, 4GB of ECC RAM and a dedicated IPv4 address on a KVM VPS.
 * Can I send my own drives?
 * Can I have more than 1 drive?
 * Do I get more CPU/RAM for having more drives?
+
+
+Pricing Model has since changed:
+
+[pricing](https://zfs.rent/pricing)
+
+#### Rent
+
+$10/month/drive + $10/month/drive for service
+
