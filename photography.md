@@ -24,7 +24,8 @@ The art of taking photographs using a camera.
   * Sony E-mount lenses
   * In-body stabilization (IBIS)
   * Weather sealing
+
 ## Photographers
 
-* Galen Rowell
+* [[[324704df]]]
 * [[ce36fdf3]]
