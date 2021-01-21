@@ -24,7 +24,11 @@ The art of taking photographs using a camera.
   * Sony E-mount lenses
   * In-body stabilization (IBIS)
   * Weather sealing
-
+* Fujifilm X100V
+  * APS-c
+  * Point-and-shoot
+  * Mostly weather sealed
+  * No IBIS
 ## Photographers
 
 * [[[324704df]]]
