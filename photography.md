@@ -13,6 +13,8 @@ The art of taking photographs using a camera.
 * Sony A6100
   * APS-C format
   * 24.2 megapixel
+  * 4k@30 video
+  * 1080p@120 video
   * ISO 100-32000
   * Sony E-mount lenses
   * No in-body stabilization (IBIS)
