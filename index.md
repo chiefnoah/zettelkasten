@@ -6,9 +6,13 @@ tags: [home]
 
 ---
 
-Generated from [neuron-template](https://github.com/srid/neuron-template) and published by [neuron](https://neuron.zettel.page/).
-Get started by reading [[[README]]].
+Welcome to Noah Pederson's knowledgebase. This is one of a few places where I
+keep information used for later reference.
 
-Other pages on this zettelkasten (this demonstrates how to use [link queries](https://neuron.zettel.page/link-query.html)):
+## Recent Blog Posts
 
-[[[z:zettels?tag=other]]]
+[[[z:zettels?tag=blogpost&limit=5&timeline]]]
+
+[[[z:zettels?tag=software/*]]]
+
+[[[z:zettels?tag=photography]]]
