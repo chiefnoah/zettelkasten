@@ -32,6 +32,6 @@ The art of taking photographs using a camera.
   * Mostly weather sealed
   * No IBIS
 ## Photographers
-
-* [[[324704df]]]
-* [[[ce36fdf3]]]
+* [[324704df]]#
+* [[ce36fdf3]]#
+* [[be84efa8]]#
