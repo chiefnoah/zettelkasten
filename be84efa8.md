@@ -11,4 +11,4 @@ the years.
 
 I came across him on youtube somewhere.
 
-His *Homes At Night* series is a particularly interesting case of Liminal Spaces
+His *Homes At Night* series is a particularly interesting case of [[dd4c331d]].
