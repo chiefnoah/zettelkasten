@@ -2,6 +2,7 @@
 date: 2020-06-01T12:00
 tags:
   - blog/published
+  - software/languages/go
 ---
 
 # Goalpost
