@@ -1,0 +1,17 @@
+image: nixos/latest
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: chiefnoah.srht.site
+tasks:
+  - setup: |
+      nix-env -iA cachix -f https://cachix.org/api/v1/install
+      cachix use srid
+      nix-env -if https://github.com/srid/neuron/archive/master.tar.gz
+  - gen: |
+      cd z
+      neuron gen
+      cd .neuron/output
+      tar -cvzf ../../../site.tar.gz .
+  - deploy: |
+      acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
+
