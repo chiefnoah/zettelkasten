@@ -11,4 +11,4 @@ keep information used for later reference.
 
 ## Recent Blog Posts
 
-[[[z:zettels?tag=blog/published&limit=5&timeline]]]
+[[z:zettels?tag=blog/published&limit=5&timeline]]
