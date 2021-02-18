@@ -13,3 +13,5 @@ Drafts of blog posts to put on my [blog](https://packetlost.dev).
 Blog posts may also be mirrored here once they've been published. Posts that
 have been published should have the tag `blog/published`. Posts that are still
 in the draft stage should have the tag `blog/draft`
+
+[[[z:zettels?tag=blog/draft&timeline]]]
