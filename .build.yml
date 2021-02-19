@@ -1,5 +1,7 @@
 image: nixos/latest
 oauth: pages.sr.ht/PAGES:RW
+sources:
+  - https://github.com/chiefnoah/zettelkasten.git
 environment:
   site: chiefnoah.srht.site
 tasks:
@@ -8,7 +10,7 @@ tasks:
       cachix use srid
       nix-env -if https://github.com/srid/neuron/archive/master.tar.gz
   - gen: |
-      cd z
+      [ -d "./z" ] && cd z || cd zettelkasten
       neuron gen
       cd .neuron/output
       tar -cvzf ../../../site.tar.gz .
