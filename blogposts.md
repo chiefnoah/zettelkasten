@@ -8,7 +8,7 @@ feed:
 
 ## Recent blogposts
 
-[[z:zettels?tag=blog/published&timeline]]
+[[z:zettels?tag=blog/published&timeline]]#
 
 ---
 
