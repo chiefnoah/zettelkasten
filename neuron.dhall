@@ -6,5 +6,4 @@
 -- This is used in the "edit" button
 , editUrl = Some "https://github.com/chiefnoah/zettelkasten/edit/master/"
 , mathJaxSupport = True
-, plugins = ["uptree", "tags", "links", "neuronignore"]
 }
