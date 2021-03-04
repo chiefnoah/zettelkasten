@@ -162,8 +162,13 @@ The primary benefit to streaming, aside from potentially better use of memory, i
 
 ---
 
-This has only been a surface-level overview of what PyBARE can do. If you'd like to learn more, I encourage you to look at the several examples in [tests for the library](https://git.sr.ht/~chiefnoah/pybare/tree/master/bare/test_encoder.py) as well as [official spec for BARE.](https://baremessages.org/) Patches and feature requests are welcome!
+This has only been a surface-level overview of what PyBARE can do. If you'd like
+to learn more, I encourage you to look at the several examples in [tests for the
+library](https://git.sr.ht/~chiefnoah/pybare/tree/master/bare/test_encoder.py)
+as well as [official spec for BARE.](https://baremessages.org/) Patches and
+feature requests are welcome!
 
 [PyBARE is available on PyPi.](https://pypi.org/project/pybare/)
 
-Thanks for reading! If you have any questions or comments, shoot me an email at [noah@packetlost.dev](mailto:noah@packetlost.dev) or <a href="https://twitter.com/intent/tweet?screen_name=chiefnoah13&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @chiefnoah13</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Thanks for reading! If you have any questions or comments, shoot me an email at
+[noah@packetlost.dev](mailto:noah@packetlost.dev).
