@@ -8,13 +8,10 @@ tags:
 
 The art of taking photographs using a camera.
 
-## Camera
+## Cameras
 
 * [[8e89adb9]]#
 * [[e440ed9f]]#
 * [[07df093c]]#
 
-## Photographers
-* [[324704df]]#
-* [[ce36fdf3]]#
-* [[be84efa8]]#
+For some cool examples that I look to for inspiration, check out [[59416a2e]]#.
