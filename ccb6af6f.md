@@ -5,7 +5,7 @@ tags:
   - software/products
 ---
 
-# Skylum Luminar
+# Skylum Luminar 4
 
 Luminar is an "AI"-centric photo editing toolkit/software package created by the
 company Skylum. It aims to compete with products such as LightRoom while
