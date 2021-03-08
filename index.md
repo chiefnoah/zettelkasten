@@ -15,4 +15,4 @@ keep information used for later reference.
 
 ## Recently Added Zettels
 
-[[z:zettels?limit=5&timeline]]
+[[z:zettels?limit=10&timeline]]
