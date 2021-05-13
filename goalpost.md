@@ -95,13 +95,13 @@ Goalpost seeks to be an easy to use. How easy? Well I think it's pretty easy, bu
 
 First, you need to of course import the goalpost package:
 
-```golang
+```go
 import "git.packetlostandfound.us/chiefnoah/goalpost"
 ```
 
 Too slow? Ok fine, here's a basic implementation for a Worker. This is basically copy pasted from [the example](https://github.com/chiefnoah/goalpost/blob/master/examples/basic.go), but I'll include it here for redundancy's sake:
 
-```golang
+```go
 type worker struct {
 	id string
 }
@@ -137,7 +137,7 @@ Now is probably a good time to talk about error handling. Errors returned from t
 
 Next up is initializing the `Queue` and registering a worker:
 
-```golang
+```go
 func main() {
 
 	//Init a queue
@@ -173,7 +173,7 @@ Another thing to remember is that you need to keep your main process alive. If `
 
 I use the following snippet followed by a eternally blocking `http.ListenAndServe` call to gracefully shutdown the queue:
 
-```golang
+```go
 
 c := make(chan os.Signal)
 signal.Notify(c, os.Interrupt, syscall.SIGTERM)
