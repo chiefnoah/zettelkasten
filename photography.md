@@ -15,3 +15,6 @@ The art of taking photographs using a camera.
 * [[07df093c]]#
 
 For some cool examples that I look to for inspiration, check out [[59416a2e]]#.
+
+I keep a list of common Instagram tags for some types of posts over at
+[[d5e3654b]]#.
