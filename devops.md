@@ -13,3 +13,11 @@ of the software development lifecycle.
 
 Common tasks include handling deployment of code to a VM, cluster (such as
 [[2687a2db]]#), monitoring, and optional rollback.
+
+
+## Tools
+
+Some tools that would fall under that category of "devops".
+
+* [aviary.sh](https://github.com/team-video/aviary.sh)
+  * A bash-powered distributed configuration management toolkit, `bash`!
