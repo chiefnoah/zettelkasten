@@ -1,8 +1,9 @@
 ---
 date: 2020-09-08T12:00
 tags:
-  - blog/published
-  - software/languages/python
+  - blog
+  - published
+  - python
 ---
 
 # Magic Python Objects

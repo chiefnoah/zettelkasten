@@ -12,7 +12,9 @@ Published blog posts. These were largely pulled from previous iterations of my
 blog. Published posts must have the tag `blog/published`. See [[blogdrafts]]#
 for (potential) future blog posts.
 
-[[z:zettels?tag=blog/published&timeline]]#
+```query
+tag:#blog/published
+```
 
 ---
 

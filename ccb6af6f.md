@@ -2,7 +2,7 @@
 date: 2020-11-18T16:49
 tags:
   - photography
-  - software/products
+  - software
 ---
 
 # Skylum Luminar 4
