@@ -26,5 +26,5 @@ particular order.
 * Scheme
 
 ```query
-tag:#software/language
+tag:#software
 ```
