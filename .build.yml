@@ -6,14 +6,12 @@ environment:
   site: chiefnoah.srht.site
 tasks:
   - setup: |
-      nix-env -iA cachix -f https://cachix.org/api/v1/install
-      cachix use srid
-      nix-env -if https://github.com/srid/neuron/archive/master.tar.gz
+      nix-env -if https://github.com/srid/emanote/archive/refs/heads/master.tar.gz
   - gen: |
       [ -d "./z" ] && cd z || cd zettelkasten
-      neuron gen
-      cd .neuron/output
-      tar -cvzf ../../../site.tar.gz .
+      emanote gen --layers .deploy/github .output
+      cd .output
+      tar -cvzf ../../site.tar.gz .
   - deploy: |
       acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
 
