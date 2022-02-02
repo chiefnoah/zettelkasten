@@ -4,14 +4,14 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    CockroachDB – Emanote Template
+    Python Libraries – Emanote Template
   </title>
   
     
       <meta property='og:description' content />
       <meta property='og:site_name' content='Emanote Template' />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='CockroachDB' />
+      <meta property='og:title' content='Python Libraries' />
     
     
       <base href='/' />
@@ -88,6 +88,15 @@
             <li class='inline-flex items-center'>
               <a class='px-1 font-bold' href=''>
                 Noah’s Knowledgebase
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='python'>
+                python
               </a>
               <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
                 <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
@@ -347,7 +356,11 @@
             
               <!-- Variable bindings for this tree-->
   
-  
+    
+      
+    
+    
+
 
 
   
@@ -360,12 +373,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
-      
+    
   
-    <a class='font-bold text-red-600 hover:underline truncate' title='CockroachDB' href='e301f6db'>
+    <a class='hover:underline truncate' title='CockroachDB' href='e301f6db'>
       CockroachDB
     </a>
     
@@ -2368,11 +2381,7 @@
     
       <!-- Variable bindings for this tree-->
   
-    
-      
-    
-    
-
+  
 
 
   
@@ -2385,12 +2394,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
         </path>
       </svg>
-    
+      
   
-    <a class='hover:underline truncate' title='Python Libraries' href='python/libraries'>
+    <a class='font-bold text-red-600 hover:underline truncate' title='Python Libraries' href='python/libraries'>
       Python Libraries
     </a>
     
@@ -2495,32 +2504,32 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-red-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    CockroachDB
+    Python Libraries
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
   
+    <p class='mb-3'>
+      Helpful libraries for working with Python.
+    </p>
+  <h2 id='object-management' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Object Management</h2>
     <ul class='my-3 ml-6 space-y-1 list-disc'>
       
         <li>
-          A distributed database
-        </li>
-      
-        <li>
-          Has real-time consistency
-        </li>
-      
-        <li>
-          Geo-partitioning
+          <a href='https://pydantic-docs.helpmanual.io/' class='text-red-600 hover:underline' target='_blank' rel='noopener'>Pydantic</a>
     <ul class='my-3 ml-6 space-y-1 list-disc'>
       
         <li>
-          Forcing data to stay in specific region
+          Python 3.6+
         </li>
       
         <li>
-          Not specifically GDPR compliant
+          Data validation, settings management, serialization
+        </li>
+      
+        <li>
+          Uses type annotations for object definition, nice!
         </li>
       
     </ul>
@@ -2528,11 +2537,15 @@
         </li>
       
         <li>
-          Has backups, streaming to a data warehouse
-        </li>
+          <a href='https://sr.ht/~chiefnoah/pybare/' class='text-red-600 hover:underline' target='_blank' rel='noopener'>PyBARE</a>
+    <ul class='my-3 ml-6 space-y-1 list-disc'>
       
         <li>
-          Looks to have some support for PostGIS, which could potentially be used as a graph database
+          <a href='python/magicobjects' class='text-red-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkBranch'>Magic Python Objects</a>
+        </li>
+      
+    </ul>
+  
         </li>
       
     </ul>
@@ -2546,15 +2559,21 @@
             
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
     
-      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-red-500' href='-/tags/software'>
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-red-500' href='-/tags/python'>
         <!-- DoNotFormat -->
-        #software
+        #python
         <!-- DoNotFormat -->
       </a>
     
-      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-red-500' href='-/tags/datastore'>
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-red-500' href='-/tags/lib'>
         <!-- DoNotFormat -->
-        #datastore
+        #lib
+        <!-- DoNotFormat -->
+      </a>
+    
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-red-500' href='-/tags/software'>
+        <!-- DoNotFormat -->
+        #software
         <!-- DoNotFormat -->
       </a>
     
