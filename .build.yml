@@ -11,6 +11,7 @@ tasks:
       nix-env -if https://github.com/srid/emanote/archive/refs/heads/master.tar.gz
   - gen: |
       [ -d "./z" ] && cd z || cd zettelkasten
+      mkdir .output
       emanote --layers .deploy/github gen .output
       cd .output
       tar -cvzf ../../site.tar.gz .
