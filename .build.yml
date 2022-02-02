@@ -6,6 +6,8 @@ environment:
   site: chiefnoah.srht.site
 tasks:
   - setup: |
+      nix-env -iA cachix -f https://cachix.org/api/v1/install
+      cachix use srid
       nix-env -if https://github.com/srid/emanote/archive/refs/heads/master.tar.gz
   - gen: |
       [ -d "./z" ] && cd z || cd zettelkasten
